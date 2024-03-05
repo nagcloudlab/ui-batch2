@@ -1,0 +1,65 @@
+
+
+why do we need javascript?
+
+- to build web-ui applications
+- to build server-side applications
+- to build mobile applications
+- to build desktop applications
+- to build command-line applications
+
+
+javascript features
+
+- dynamic typing
+- first-class functions
+- single-threaded process
+- by default all IO operations are asynchronous ( non-blocking )
+- event-driven
+
+
+javascript is based on the ECMAScript standard
+- current version is ECMAScript 6 (ES6) or ECMAScript 2015
+
+
+how to run javascript ?
+
+- javascript interpreter/engine/runtime
+
+broweser envi
+
+- chrome ( v8 c++ )
+- firefox ( spidermonkey c++ )
+- safari ( webkit c++ )
+- edge ( chakra c++ )
+
+server envi
+
+- nodejs ( v8 c++ )
+- JVM ( nashorn java )
+
+...
+
+
+javascript topics
+
+- Language built-in data-types
+- Execution-context and scope-chain
+- Functional programming concepts
+- Object-oriented programming concepts
+- Data-structures / collections => array, set, map
+- ES6 features
+- Async programming
+    - Promises
+    - Reactive programming ( RxJS )
+- Unit testing ( jest )
+- Package management ( npm, yarn )  
+- Module system ( commonJS, ES6 modules )
+- Module bundling ( webpack )
+...
+
+- typescript
+
+------------------------------------------------------------
+
+
