@@ -1,0 +1,69 @@
+
+
+
+.js developement without module standards & loaders
+
+
+=> global naming collisions
+=> loading modules in the right order
+
+
+solution(s)
+
+=> using module standards & loaders
+
+From third-party's
+
+=> AMD (Asynchronous Module Definition)
+=> CommonJS  ( most popular )
+=> UMD (Universal Module Definition)
+....
+-------------------------------------------------------------------------------
+CommonJS ( cjs)
+-------------------------------------------------------------------------------
+
+=> every.js file is a module
+=> all variables and functions are private by default
+=> to abstract a variable or function, use 'module.exports' object
+=> to import a module, use 'require()' function
+=> group related module into a folder ( package) with descriptor file ( package.json)
+
+
+Node.js ( server-side javascript ) uses CommonJS module standard and loader
+
+
+-------------------------------------------------------------------------------
+NPM ( Node Package Manager)
+-------------------------------------------------------------------------------
+
+
+=> a command-line tool to manage javascript packages
+=> publish and share packages
+=> install and manage packages
+
+
+-------------------------------------------------------------------------------
+EcmaScript 6 ( ES6) Modules( esm )
+-------------------------------------------------------------------------------
+
+
+=> every.js file is a module
+=> all variables and functions are private by default
+=> to abstract a variable or function, use 'export' keyword
+=> to import a module, use 'import' keyword
+=> group related module into a folder ( package) with descriptor file ( package )
+
+
+-------------------------------------------------------------------------------
+Module bundlers
+-------------------------------------------------------------------------------
+
+=> tools to bundle all modules into a single file
+
+e.g webpack, browserify, rollup, parcel, ....
+
+
+-------------------------------------------------------------------------------
+
+
+
