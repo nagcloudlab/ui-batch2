@@ -7,3 +7,5 @@ https://exploringjs.com/
 https://latentflip.com/loupe
 
 https://www.learnrxjs.io/
+
+https://github.com/nagcloudlab/typescript/tree/main/2-typescript
