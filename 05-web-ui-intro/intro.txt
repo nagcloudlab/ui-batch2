@@ -1,0 +1,35 @@
+
+
+UI = data + style + interaction
+Web UI = HTML + CSS + JS
+
+
+why do we need javascript on HTML-page?
+
+using browser's Apis, javascript programs
+can bring dyanmic behavior to the web page.
+
+browser's Apis => w3c recommendations
+
+e.g DOM,XHR/Fetch, Timer,...
+https://developer.mozilla.org/en-US/docs/Web/API
+
+browser's vendors implemented these Apis using
+native code. but they exposed these Apis to us
+as javascript objects & functions.
+
+DOM API
+-------
+-> to manipulate the HTML elements
+
+XHR/Fetch API
+-------------
+-> to send async requests to the server
+
+Timer API
+---------
+-> to execute actions by timeout/interval
+
+--------------------------------------------------
+
+
