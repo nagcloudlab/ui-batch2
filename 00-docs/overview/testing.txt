@@ -1,0 +1,41 @@
+
+Automated Test 
+-----------------------
+
+    -> Arrange
+    -> Act
+    -> Assert
+
+
+Testing Frameworks
+-------------------------
+
+for javascript,
+
+    - Jasmine
+    - Jest (facebook)
+
+Test Runners
+-------------------------
+
+    - Karma
+    - Jest
+
+Assertion Libraries
+-------------------------
+
+    - Chai
+    - Jasmine
+    - Jest
+
+Mocking Libraries
+-------------------------
+
+    - Sinon
+    - Jest
+
+
+testing libraries
+-------------------------
+
+    - https://testing-library.com/
