@@ -1,8 +1,5 @@
 
-namespace hotel {
-    class Customer { }
-}
 
-namespace business {
-    class Customer { }
-}
+
+let myName: string = "John";
+let myAge: number = 25;
