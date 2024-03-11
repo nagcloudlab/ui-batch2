@@ -19,7 +19,7 @@ showBtn.addEventListener('click', e => {
 
 const top5TodosBtn = document.querySelector('.btn-dark');
 const todosTableBodyEle = document.querySelector('#todos');
-
+/*
 // AJAX => Asynchronous JavaScript And XML/JSON
 top5TodosBtn.addEventListener('click', e => {
     const url = 'https://jsonplaceholder.typicode.com/todos?_limit=5';
@@ -52,5 +52,59 @@ top5TodosBtn.addEventListener('click', e => {
 
 
 });
+
+*/
+
+// using DOM API + using Fetch API
+
+/*
+top5TodosBtn.addEventListener('click', e => {
+    const url = 'https://jsonplaceholder.typicode.com/todos?_limit=5';
+    fetch(url)
+        .then(response => response.json())
+        .then(todos => {
+            let todosHtml = '';
+            todos.forEach(todo => {
+                todosHtml += `
+                    <tr>
+                        <td>${todo.id}</td>
+                        <td>${todo.title}</td>
+                        <td>${todo.completed}</td>
+                    </tr>
+                `
+            });
+            todosTableBodyEle.innerHTML = todosHtml;
+        })
+        .catch(err => console.error(err));
+});
+
+*/
+
+// using DOM API + using Fetch API + using async/await
+
+top5TodosBtn.addEventListener('click', async e => {
+    const url = 'https://jsonplaceholder.typicode.com/todos?_limit=5';
+    try {
+        const response = await fetch(url);
+        const todos = await response.json();
+        let todosHtml = '';
+        todos.forEach(todo => {
+            todosHtml += `
+                <tr>
+                    <td>${todo.id}</td>
+                    <td>${todo.title}</td>
+                    <td>${todo.completed}</td>
+                </tr>
+            `
+        });
+        todosTableBodyEle.innerHTML = todosHtml;
+    } catch (err) {
+        console.error(err);
+    }
+})
+
+
+
+
 
 

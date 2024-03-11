@@ -33,3 +33,110 @@ Timer API
 --------------------------------------------------
 
 
+Web UI developer
+
+1. HTML
+2. CSS
+3. JS
++
+4. Browser's Apis
+
+--------------------------------------------------
+
+challenges working with browser's Apis directly
+
+
+-> browser's Apis are not consistent across the browsers
+-> browser's Apis are not easy to use
+-> memory leaks i.e  remove event listeners, remove dom elements when not needed
+-> performance issues i.e keep the dom manipulation to minimum
+-> too much of code to write for simple tasks
+-> code maintainability
+-> code reusability
+-> code readability
+-> code testability
+....
+
+--------------------------------------------------
+
+legacy solutions to overcome the challenges
+
+-> server side page generation
+
+    -> jsp (java server pages)
+    -> asp (active server pages)
+    -> php
+    ...
+
+--------------------------------------------------
+
+challenges with server side page generation
+
+-> on every request, server has to generate the page by
+   reading the data from the database, processing the data
+   and then generating the HTML page. this is time consuming
+
+-> on every request, server has to send the entire page,
+    which is not efficient in terms of network bandwidth
+
+-> on every page response, browser has to re-render the entire
+    page, which is not efficient in terms of browser's memory
+    and cpu.
+
+--------------------------------------------------
+
+modern solution to overcome the challenges
+
+-> client side page generation
+
+how?
+
+-> browsers updated with new Apis
+-> Javascript with new features
++
+-> libraries and frameworks ( from open source community)
+    
+
+--------------------------------------------------
+
+libraries and frameworks
+
+Single Page Application (SPA) based libraries and frameworks
+
+1. jQuery
+
+    -> to simplify the dom manipulation
+    -> to simplify the event handling
+    -> to simplify the ajax requests
+    -> to simplify the animations
+    -> to simplify the cross browser issues
+
+    https://jquery.com/
+
+
+mvc ( model view controller) based frameworks
+
+2. Backbone.js
+3. Knockout.js
+4. Ember.js
+5. DOJO toolkit
+6. Ext.js (Sencha)
+7. Angular.js
+..
+
+component based libraries and frameworks
+
+8. React.js (facebook) ( view library) 
+9. Angular (google) 
+10. Vue.js 
+
+--------------------------------------------------
+
+react.js frameworks
+
+- Next.js
+- Gatsby.js
+- React native (mobile app development)
+
+--------------------------------------------------
+

@@ -10,9 +10,9 @@ topics to be covered in javascript
 ✅ 5. function-binding / 'this' keyword 
 ✅ 6. es6 & above features
 ✅ 7. typescript
-
 ✅ 8. unit-testing
 ✅ 9. javascript with browser-apis
+
 ✅ 10. Quick overview on third-party libraries/frameworks
 
 --------------------------------------------------------
