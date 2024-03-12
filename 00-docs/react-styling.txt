@@ -1,0 +1,7 @@
+
+
+how to to react.js based app 
+
+
+- global style sheet
+- component style sheet
